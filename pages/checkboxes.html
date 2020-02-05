@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                display:flex;
+                justify-content:center;
+            }
+            label {
+                display:block;
+                margin: 16px 0;
+            }
+            input {
+                margin-right: 8px;
+            }
+        </style>
+    </head>
+    <body>        
+        <main>
+            <h1>WebDriver Unit Test: Checkboxes</h1>
+            <div class="checkboxContainer">
+            <label>
+                <input class="checkboxClass" type="checkbox" checked="checked" value="kkslider" name="checkboxName"/>KK Slider
+            </label>
+            <label> 
+                <input class="checkboxClass" type="checkbox" value="tomnook" name="checkboxName"/>Tom Nook
+            </label>
+            <label>
+                <input class="checkboxClass" type="checkbox" value="isabelle" name="checkboxName"/>Isabelle
+            </label>
+            </div>
+            <div>
+            <h2>Distractions</h2>
+            <p>WebDriver should not select these checkboxes.</p>
+            <label>
+                <input class="distraction" type="checkbox" value="1" name="distraction"/>1
+            </label>
+            <label>
+                <input class="distraction" type="checkbox" value="2" name="distraction"/>2
+            </label>
+            <label>
+                <input class="distraction" type="checkbox" value="3" name="distraction"/>3
+            </label>
+            </div>
+        </main>
+    </body>
+</html>
