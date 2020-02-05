@@ -1,0 +1,10 @@
+{
+  "name": "outcome-tests-unit-test-resources",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "deploy": "sh deploy.sh"
+  },
+  "author": "Dylan Davies",
+  "license": "ISC"
+}

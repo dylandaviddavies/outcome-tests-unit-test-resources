@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            label {
+                display:block;
+                padding: 8px 0;
+            }
+            input {
+                margin-right: 8px;
+            }
+            body {
+                display:flex;
+                justify-content:center;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>WebDriver Unit Test: Radio Buttons</h1>
+            <div class="radioContainer">
+              <label>
+                <input class="radioClass" type="radio" value="akira" name="radioName"/>Akira
+              </label>
+              <label> 
+                <input class="radioClass" type="radio" value="mononoke" name="radioName"/>Mononoke
+              </label>
+              <label>
+                <input class="radioClass" type="radio" value="nausicaa" name="radioName"/>Nausicaa
+              </label>
+            </div>
+            <div>
+              <h2>Distractions</h2>
+              <p>WebDriver should not interact with these radio buttons</p>
+              <label>
+                <input class="distraction" type="radio" value="1" name="distraction"/>1
+              </label>
+              <label>
+                <input class="distraction" type="radio" value="2" name="distraction"/>2
+              </label>
+              <label>
+                <input class="distraction" type="radio" value="3" name="distraction"/>3
+              </label>
+            </div>
+          </main>
+    </body>
+</html>
