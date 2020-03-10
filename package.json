@@ -6,5 +6,6 @@
     "deploy": "sh deploy.sh"
   },
   "author": "Dylan Davies",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
